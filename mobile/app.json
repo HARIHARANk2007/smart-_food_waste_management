@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "EcoResQ Mobile",
+    "slug": "ecoresq-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#064E3B"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ecoresq.foodrescue",
+      "infoPlist": {
+        "NSCameraUsageDescription": "EcoResQ requires camera access to inspect surplus food quality and scan QR verification codes during pickup.",
+        "NSLocationWhenInUseUsageDescription": "EcoResQ requires location access to match nearby food donors, NGOs, and volunteers for live route tracking.",
+        "NSPhotoLibraryUsageDescription": "EcoResQ needs photo library access to upload food donation pictures for AI freshness analysis."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#064E3B"
+      },
+      "package": "com.ecoresq.foodrescue",
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Grant EcoResQ permission to use the camera for food freshness verification and QR scanning."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow EcoResQ to use your location to find nearest food surplus donations and optimize volunteer routes."
+        }
+      ]
+    ]
+  }
+}

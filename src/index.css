@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #F8FAF8;
+    color: #1E293B;
+  }
+}
+
+.bg-vibrant-bg {
+  background-color: #F8FAF8;
+}
+
+.bg-vibrant-green {
+  background-color: #2E7D32;
+}
+
+.bg-vibrant-green-hover:hover {
+  background-color: #1B5E20;
+}
+
+.bg-vibrant-light {
+  background-color: #E8F5E9;
+}
+
+.bg-vibrant-soft {
+  background-color: #F1F8F1;
+}
+
+.text-vibrant-green {
+  color: #2E7D32;
+}
+
+.border-vibrant-green {
+  border-color: #2E7D32;
+}
+
+.text-vibrant-orange {
+  color: #FF9800;
+}
+
+.bg-vibrant-orange {
+  background-color: #FF9800;
+}

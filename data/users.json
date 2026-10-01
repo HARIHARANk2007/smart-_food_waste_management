@@ -1,0 +1,30 @@
+[
+  {
+    "id": "user_restaurant",
+    "name": "Green Leaf Kitchen",
+    "email": "restaurant@ecoresq.demo",
+    "passwordHash": "d3ad9315b7be5dd53b31a273b3b3aba5defe700808305aa16a3062b76658a791",
+    "role": "restaurant"
+  },
+  {
+    "id": "user_ngo",
+    "name": "Annam Relief Foundation",
+    "email": "ngo@ecoresq.demo",
+    "passwordHash": "d3ad9315b7be5dd53b31a273b3b3aba5defe700808305aa16a3062b76658a791",
+    "role": "ngo"
+  },
+  {
+    "id": "user_volunteer",
+    "name": "Ramesh Kumar",
+    "email": "volunteer@ecoresq.demo",
+    "passwordHash": "d3ad9315b7be5dd53b31a273b3b3aba5defe700808305aa16a3062b76658a791",
+    "role": "volunteer"
+  },
+  {
+    "id": "user_admin",
+    "name": "EcoResQ Operations",
+    "email": "admin@ecoresq.demo",
+    "passwordHash": "d3ad9315b7be5dd53b31a273b3b3aba5defe700808305aa16a3062b76658a791",
+    "role": "admin"
+  }
+]
