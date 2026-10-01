@@ -1,7 +1,7 @@
 import { Donation, User, AiQualityPrediction, SmartMatchResult, CarbonImpact } from '../types';
 
-// In Expo, localhost on Android emulator is 10.0.2.2 or current machine IP; for Web/iOS it's localhost:3000
-const API_BASE_URL = 'http://localhost:3000/api';
+// Live Render Cloud API endpoint
+const API_BASE_URL = 'https://smart-food-waste-management-mu11.onrender.com/api';
 
 let authToken: string | null = null;
 
